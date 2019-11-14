@@ -50,7 +50,7 @@ void setup() {
 //  melody[] is an array of notes, accompanied by beats[],
 //  which sets each note's relative length (higher #, longer note)
 int melody[] = { e, d, e, b, a, b, g, f, g, g, f, e, f, f, e, d, d, f, e, g, a, g, a, b, e, d, e, b, a, b, g, f, g, g, f, e, e, g, b, e, e, e, b, C, d, C, b, a, g, f, g, g, a, b, e, f, g, a, b, e, b, C, d, C, b, a, g, e, f, f, d, e, b, a, g, f, e};
-int beats[]  = { 8,8, 8, 8,8, 8, 8,8, 8, 8, 8, 8,  8, 8,8, 8, 8, 8, 16,  8,8, 8,8, 8,  8,8, 8, 8,8, 8,  8,8, 8, 8, 8, 8,  8, 8, 8, 8, 16, 8, 16, 8,8,8,8, 16,  8, 8, 8, 8, 8, 16, 8, 8, 8, 8, 8,  8, 16, 8,8,8,8, 16,  8, 8, 8, 8, 8, 16, 8, 8, 8, 8, 16};
+int beats[]  = { 16,16, 16, 16,16, 16, 16,16, 16, 16, 16, 16,  16, 16,16, 16, 16, 16, 16,  16,16, 16,16,16,  16,16, 16,16,16, 16,  16,16, 16,16, 16, 16,  16, 16,16, 16, 16, 16, 16, 16,16,16,16, 16,  16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16,  16, 16,16,16,16,16, 16,  16,16, 16, 16, 16, 16, 16, 16, 16, 16, 16};
 int MAX_COUNT = sizeof(melody) / 2; // Melody length, for looping.
 
 // Set overall tempo
