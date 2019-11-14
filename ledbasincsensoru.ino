@@ -23,27 +23,27 @@ void loop() {
   Serial.println(basinc);                                           
   if (basinc > 100);
     digitalWrite(arduLed1, HIGH);   // Led 1 yan
-  delay(1000);  
+    delay(1000);  
   if (basinc > 200);                     
-  digitalWrite(arduLed2, HIGH);   // Led 2 yan
-  delay(1000);                      
+    digitalWrite(arduLed2, HIGH);   // Led 2 yan
+    delay(1000);                      
   if (basinc > 300);
-  digitalWrite(arduLed3, HIGH);   // Led 3 yan
-  delay(1000);                       
+    digitalWrite(arduLed3, HIGH);   // Led 3 yan
+    delay(1000);                       
   if (basinc > 400);
-  digitalWrite(arduLed4, HIGH);   // Led 4 yan
-  delay(1000);  
+    digitalWrite(arduLed4, HIGH);   // Led 4 yan
+    delay(1000);  
                     
   if (basinc < 100);
-  digitalWrite(arduLed1, LOW);   // Led 1 sön
+    digitalWrite(arduLed1, LOW);   // Led 1 sön
   if (basinc < 200);
-  delay(100);                       
-  digitalWrite(arduLed2, LOW);   // Led 2 yan
-  delay(100); 
+    delay(100);                       
+    digitalWrite(arduLed2, LOW);   // Led 2 yan
+    delay(100); 
   if (basinc < 300);                      
-  digitalWrite(arduLed3, LOW);   // Led 3 yan
-  delay(100); 
+    digitalWrite(arduLed3, LOW);   // Led 3 yan
+    delay(100); 
   if (basinc < 400);                      
-  digitalWrite(arduLed4, LOW);   // Led 4 yan
-  delay(100);   
+    digitalWrite(arduLed4, LOW);   // Led 4 yan
+    delay(100);   
 }
