@@ -17,7 +17,7 @@ void loop() {
     digitalWrite(ledler[i], LOW);
   }
 
-  for(int j=0; j<6; j--) {
+  for(int j=5; j<-1; j--) {
     digitalWrite(ledler[j], HIGH);
     delay(80);
     digitalWrite(ledler[j], LOW);
